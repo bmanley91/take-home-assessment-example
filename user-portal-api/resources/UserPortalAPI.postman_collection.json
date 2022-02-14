@@ -1,0 +1,58 @@
+{
+	"variables": [],
+	"info": {
+		"name": "UserPortalAPI",
+		"_postman_id": "3088c16d-2785-2d36-9439-203f0bdced04",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Users",
+			"request": {
+				"url": {
+					"raw": "localhost:3000/users?excludeCodes=D987&excludeCategories=C&includeCategories=B&exculdeCodes=C789",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "excludeCodes",
+							"value": "D987",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "excludeCategories",
+							"value": "C",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "includeCategories",
+							"value": "B",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "exculdeCodes",
+							"value": "C789",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
